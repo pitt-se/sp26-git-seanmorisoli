@@ -7,10 +7,10 @@ public class CommitCafe {
 
     public static void brew(String drink) {
         // STUDENT_TODO_2A: Implement - add 1 to cups & print a message
-        cups++;
-        System.out.println("Cups is now: " + cups);
+        cups = cups + 1;
+        System.out.println(barista + " brewed a cup of " + drink + ". Total cups: " + cups);
         // STUDENT_TODO_2B: Add a second brew-related improvement
-        
+
     }
 
     public static void printSummary() {
